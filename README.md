@@ -1,5 +1,7 @@
 This theme is just to show my clients that I'm capable of converting html template to wordpress theme.
 
+Theme Demo at : http://asmamourad.c1.biz/sampletheme/
+
 I used template: https://colorlib.com/wp/template/andrea/
 
 I used underscores theme as my blank theme
