@@ -133,9 +133,9 @@ add_action( 'widgets_init', 'sample_theme_widgets_init' );
 function sample_theme_scripts() {
 	wp_enqueue_style( 'sample-theme-style', get_stylesheet_uri(), NULL, microtime());
 	
-	wp_enqueue_style( 'mygooglefonts1', '//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700' );
-  wp_enqueue_style( 'mygooglefonts2', '//fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap' );
-  wp_enqueue_style( 'mygooglefonts3', '//fonts.googleapis.com/css?family=Abril+Fatface&display=swap' );
+	wp_enqueue_style( 'mygooglefonts1', 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700' );
+  wp_enqueue_style( 'mygooglefonts2', 'https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap' );
+  wp_enqueue_style( 'mygooglefonts3', 'https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap' );
   wp_enqueue_style( 'openjs',  get_template_directory_uri() . '/css/open-iconic-bootstrap.min.css', NULL, microtime() );
   wp_enqueue_style( 'animate',  get_template_directory_uri() . '/css/animate.css', NULL, microtime() );
   wp_enqueue_style( 'carousel',  get_template_directory_uri() . '/css/owl.carousel.min.css', NULL, microtime() );
